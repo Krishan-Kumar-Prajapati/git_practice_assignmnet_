@@ -1,18 +1,24 @@
 let number=43;
-let factor=0;
+
+let factors=0;
+
 
 for(let i=1;i<=number;i++){
  
    if(number%i==0){
 
-        factor++;
+        factors++;
+
+
     
 }
 
 }
     
 
-if(factor == 2){
+
+if(factors==2){
+
    
  console.log("Yes");
 
